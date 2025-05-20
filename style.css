@@ -1,1 +1,88 @@
-/* Add you CSS here */
+/* style.css */
+/* Add your custom styles here */
+
+/* Set the background color of the whole page to light pink */
+body {
+  background-color: #ffe8f7; /* light pink */
+}
+
+/* Style the navigation bar */
+nav {
+  background-color: #fff;      /* White background for the nav bar */
+  padding: 10px 0;             /* Add some space above and below */
+  text-align: center;          /* Center the navigation links */
+  border-bottom: 2px solid #ffe8f7; /* Light pink border at the bottom */
+}
+
+/* Style the navigation links */
+nav ul {
+  list-style-type: none;       /* Remove bullet points */
+  padding: 0;                  /* Remove default padding */
+  margin: 0;                   /* Remove default margin */
+}
+
+nav ul li {
+  display: inline;             /* Display links in a row */
+  margin: 0 15px;              /* Add space between links */
+}
+
+nav ul li a {
+  text-decoration: none;       /* Remove underline from links */
+  color: #e75480;              /* Pink color for links */
+  font-we  /* Style the main heading (h1) */
+  h1 {
+    font-family: 'Brush Script MT', cursive; /* Use Lucida Handwriting font */
+    font-size: 4em;              /* Make the text larger */
+    margin-top: 30px;            /* Add some space at the top */
+    color: black;                /* Keep the text color black */
+    text-align: center;          /* Center the text */
+    /* Add a background image behind the header */
+    background-image: url('https://i.pinimg.com/736x/72/c3/91/72c391bdc84e2e6b8bd9ace4ca4f0552.jpg');
+    background-size: cover;      /* Make the image cover the area */
+    background-position: center; /* Center the image */
+    padding: 30px 0;             /* Add space above and below the text */
+  }
+  
+  /* Style the subheading (h2) */
+  h2 {
+    text-align: center;          /* Center the text */
+    font-size: 2em;              /* Make the text larger */
+    margin-top: 10px;            /* Add a little space above */
+    color: black;                /* Keep the text color black */
+    /* Add a background image behind the subheader */
+    background-image: url('https://i.pinimg.com/736x/72/c3/91/72c391bdc84e2e6b8bd9ace4ca4f0552.jpg');
+    background-size: cover;      /* Make the image cover the area */
+    background-position: center; /* Center the image */
+    padding: 20px 0;             /* Add space above and below the text */
+  }ight: bold;           /* Make the text bold */
+  font-size: 1.1em;            /* Slightly larger text */
+}
+
+/* Style the main heading (h1) */
+h1 {
+  font-family: 'Brush Script MT', cursive; /* Use Lucida Handwriting font */
+  font-size: 4em;              /* Make the text larger */
+  margin-top: 30px;            /* Add some space at the top */
+  color: black;                /* Keep the text color black */
+  text-align: center;          /* Center the text */
+}
+
+/* Style the subheading (h2) */
+h2 {
+  text-align: center;          /* Center the text */
+  font-size: 2em;              /* Make the text larger */
+  margin-top: 10px;            /* Add a little space above */
+  color: black;                /* Keep the text color black */
+  /* No background image */
+}
+
+/* Style section headings */
+h3 {
+  color: #e75480;              /* Pink color for section headings */
+}
+
+/* Add some space between sections */
+section {
+  margin: 30px 0;
+  padding: 10px;
+}

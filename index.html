@@ -2,10 +2,102 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>My Personal Site</title>
+  <title>Aisha's Portfolio</title>
+  <!-- Link to the CSS file for styles -->
   <link rel="stylesheet" href="style.css">
+  <style>
+    /* Make section headings (About Me, My Skills, My Projects) bigger and pink */
+    /* This targets all h3 elements, which are used for section titles */
+    h3 {
+      font-size: 2em;        /* Make the text bigger */
+      color: #e75480;        /* Pink color for section headings */
+      margin-top: 30px;      /* Add space above the heading */
+      margin-bottom: 15px;   /* Add space below the heading */
+      text-align: center;    /* Center the heading */
+    }
+
+    /* Center all paragraphs on the page */
+    p {
+      text-align: center;      /* Center the text in all paragraphs */
+    }
+
+    /* Add space and a pink border around each section */
+    section {
+      margin-top: 40px;            /* Add space above each section */
+      margin-bottom: 40px;         /* Add space below each section */
+      border: 2px solid #e75480;   /* Pink border around each section */
+      border-radius: 10px;         /* Rounded corners for a softer look */
+      padding: 20px;               /* Add space inside the border */
+      background-color: #fff0f6;   /* Very light pink background for contrast */
+    }
+  </style>
 </head>
 <body>
-  <!-- Add your HTML content here -->
+  <!-- Navigation bar at the very top -->
+  <nav>
+    <ul>
+      <!-- These links go to different sections of the page -->
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#bio">Bio</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+    </ul>
+  </nav>
+
+  <!-- Header with main title and subtitle -->
+  <header>
+    <!-- Profile image above the main header -->
+    <!-- Replace 'your-photo.jpg' with your own image file name -->
+    <br>
+    <br>
+    <img src="https://i.pinimg.com/736x/ab/77/18/ab7718cce744172110ddacb6c1f16a5a.jpg" alt="Aisha's photo" width="120" style="display:block; margin: 0 auto; border-radius: 70%;">
+    <h1>Aisha's Portfolio</h1>
+    <h2>Welcome to my personal website!</h2>
+  </header>
+
+ <!-- Hero Section: A simple introduction -->
+<section id="hero">
+  <h2>˖ . ݁𝜗𝜚. ݁₊</h2>
+  <p style="text-align: center;">
+    <em>Undergraduate student at the University of North Carolina Greensboro, majoring in Computer Science.</em>
+  </p>
+</section>
+
+  <!-- Bio Section: Information about yourself -->
+  <section id="bio">
+    <h3>About Me</h3>
+    <p>
+      I am a beginner programmer, with experience in Java and a passion for learning new languages. I am currently learning HTML, CSS, and JavaScript to build my own projects. Web Development is definitely a field I want to explore more. I love the idea of creating beautiful and functional websites that can help people. I also enjoy problem-solving and working on projects that challenge me. In my free time, I like to play video games, read books, and spend time with my friends and family.
+      I am excited to learn more about coding and share my progress!
+    </p>
+    <!-- You can add a photo here if you want -->
+    <!-- <img src="your-photo.jpg" alt="Aisha's photo" width="120"> -->
+  </section>
+
+  <!-- Skills Section: List your skills -->
+  <section id="skills">
+    <h3>My Skills</h3>
+    <ul>
+      <!-- Each skill has a simple icon (emoji) next to it -->
+      <li>☕ Java</li>
+      <li>🌐 Learning HTML</li>
+      <li>🎨 Learning CSS</li>
+      <li>💻 Learning JavaScript</li>
+    </ul>
+  </section>
+
+  <!-- Projects Section: List your projects -->
+  <section id="projects">
+    <h3>My Projects</h3>
+    <ul>
+      <li>Personal Website (this site!)</li>
+      <!-- Add more projects as you build them -->
+    </ul>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Aisha. All rights reserved.</p>
+  </footer>
 </body>
 </html>
